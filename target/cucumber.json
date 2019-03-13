@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Mail ID",
+        "description": "",
+        "id": "login;mail-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 274197274,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User in Login page",
+            "match": {
+              "location": "Login.user_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 161420,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter mail id and pw",
+            "match": {
+              "location": "Login.user_enter_mail_id_and_pw()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 460467,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user go to home page",
+            "match": {
+              "location": "Login.user_go_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
